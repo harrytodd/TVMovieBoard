@@ -12,7 +12,6 @@ const Series = (props) => {
     async function fetchSeries() {
       const { data } = await axios.get(`https://api.themoviedb.org/3/tv/${id}?api_key=${process.env.API_KEY}`)
       updateSeries(data)
-      console.log(data)
     }
     fetchSeries()
   }, [])
@@ -47,9 +46,7 @@ const Series = (props) => {
             })}
           </div>
           <div className="links">
-            <a href={series.homepage}>
-              <img className="stream-butt" src={streamLogo} alt="Stream" />
-            </a>
+            <a className="stream-butt" href={series.homepage}></a>
           </div>
         </div>
       </div>

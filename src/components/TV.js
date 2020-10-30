@@ -102,8 +102,6 @@ const TV = () => {
             } else {
               updatePage(page - 1)
               refreshSearch(searchVal, page - 1)
-              console.log(page)
-              console.log(maxPage)
             }
           }}>{'<'}</button>
           <p className="text-primary">{page}</p>
@@ -113,8 +111,6 @@ const TV = () => {
             } else {
               updatePage(page + 1)
               refreshSearch(searchVal, page + 1)
-              console.log(page)
-              console.log(maxPage)
             }
           }}>{'>'}</button>
         </div>

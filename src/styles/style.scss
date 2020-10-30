@@ -308,7 +308,16 @@ strong {
 
 .stream-butt {
   height: 50px;
-  width: auto;
+  width: 50px;
+  background: url('../img/play-circle-solid.png');
+  background-size: contain;
+}
+
+.imdb-butt {
+  height: 48px;
+  width: 100px;
+  background: url('../img/imdb-brands.png');
+  background-size: contain;
 }
 
 .links {

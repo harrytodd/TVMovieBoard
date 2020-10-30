@@ -12,7 +12,6 @@ const Season = (props) => {
     async function getSeason() {
       const { data } = await axios.get(`https://api.themoviedb.org/3/tv/${id}/season/${seasonNumber}?api_key=${process.env.API_KEY}`)
       updateSeason(data)
-      console.log(data)
     }
     getSeason()
   }, [])

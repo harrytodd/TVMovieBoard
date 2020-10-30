@@ -107,8 +107,6 @@ const Movies = () => {
             } else {
               updatePage(page - 1)
               refreshSearch(searchVal, page - 1)
-              console.log(page)
-              console.log(maxPage)
             }
           }}>{'<'}</button>
 
@@ -119,8 +117,6 @@ const Movies = () => {
             } else {
               updatePage(page + 1)
               refreshSearch(searchVal, page + 1)
-              console.log(page)
-              console.log(maxPage)
             }
           }}>{'>'}</button>
         </div>
