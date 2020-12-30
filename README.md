@@ -40,9 +40,9 @@ Coming Soon |
 
 ## Visuals
 ###### Landing Page
-![Image](https://harrytodd.github.io/project-2/src/img/home-screenshot.png)
+![Image](src/img/home-screenshot.png)
 ###### Sample Page
-![Image](https://harrytodd.github.io/project-2/src/img/tv-screenshot.png)
+![Image](src/img/tv-screenshot.png)
 
 ## Future Realeases
 Due to the infancy of the project and the speed in which it was created, further functionality 
