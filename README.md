@@ -1,5 +1,6 @@
-# Media Database
-##### Project Status: Infancy
+![ga_cog_large_red_rgb](https://cloud.githubusercontent.com/assets/40461/8183776/469f976e-1432-11e5-8199-6ac91363302b.png)
+### General Assembly Software Engineering Immersive 
+# Project 2 - TVMovieBoard   
 
 ## Description
 This application is a service where a user can filter trending, popular, 
