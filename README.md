@@ -88,16 +88,16 @@ We used useState to keep the data in state and useEffect so that we do not creat
 
 ```javascript
 <section className="cards">
-	{movies.map((movie, index) => {
-		const imgSrc = `https://image.tmdb.org/t/p/w500/${movie.poster_path}`
-		return <div key={index} className="card">
-			<Link to={`/movies/${movie.id}`}>
-				<label>
-					<img className="text-primary" src={imgSrc} alt={truncate(movie.title)} />
-          			</label>
-         		</Link>
-     		</div>
-  	})}
+    {movies.map((movie, index) => {
+        const imgSrc = `https://image.tmdb.org/t/p/w500/${movie.poster_path}`
+        return <div key={index} className="card">
+	    <Link to={`/movies/${movie.id}`}>
+	        <label>
+		    <img className="text-primary" src={imgSrc} alt={truncate(movie.title)} />
+          	</label>
+             </Link>
+     	</div>
+    })}
 </section>
 ```
 Using ReactJS made the whole process of manipulating the HTML aspects a lot easier than it was in my first project where we had to use 'Vanilla' HTML, CSS and JavaScript.
