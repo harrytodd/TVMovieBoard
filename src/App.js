@@ -14,12 +14,12 @@ import Season from './components/Season'
 const App = () => (
   <BrowserRouter>
     <Switch>
-      <Route exact path="/" component={Home} />
-      <Route exact path="/movies" component={Movies} />
-      <Route exact path="/tv" component={TV} />
-      <Route exact path="/movies/:id" component={Movie} />
-      <Route exact path="/tv/:id" component={Series} />
-      <Route exact path="/tv/:id/:season" component={Season} />
+      <Route exact path="/TVMovieBoard" component={Home} />
+      <Route exact path="/TVMovieBoard/movies" component={Movies} />
+      <Route exact path="/TVMovieBoard/tv" component={TV} />
+      <Route exact path="/TVMovieBoard/movies/:id" component={Movie} />
+      <Route exact path="/TVMovieBoard/tv/:id" component={Series} />
+      <Route exact path="/TVMovieBoard/tv/:id/:season" component={Season} />
     </Switch>
   </BrowserRouter>
 )

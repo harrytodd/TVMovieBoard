@@ -45,12 +45,12 @@ In order to create a streamlined multipage website we used ReactJS. This was our
 const App = () => (
   <BrowserRouter>
     <Switch>
-      <Route exact path="/" component={Home} />
-      <Route exact path="/movies" component={Movies} />
-      <Route exact path="/tv" component={TV} />
-      <Route exact path="/movies/:id" component={Movie} />
-      <Route exact path="/tv/:id" component={Series} />
-      <Route exact path="/tv/:id/:season" component={Season} />
+      <Route exact path="/TVMovieBoard/" component={Home} />
+      <Route exact path="/TVMovieBoard/movies" component={Movies} />
+      <Route exact path="/TVMovieBoard/tv" component={TV} />
+      <Route exact path="/TVMovieBoard/movies/:id" component={Movie} />
+      <Route exact path="/TVMovieBoard/tv/:id" component={Series} />
+      <Route exact path="/TVMovieBoard/tv/:id/:season" component={Season} />
     </Switch>
   </BrowserRouter>
 )
@@ -91,7 +91,7 @@ We used useState to keep the data in state and useEffect so that we do not creat
 	{movies.map((movie, index) => {
 		const imgSrc = `https://image.tmdb.org/t/p/w500/${movie.poster_path}`
 		return <div key={index} className="card">
-			<Link to={`/movies/${movie.id}`}>
+			<Link to={`/TVMovieBoard/movies/${movie.id}`}>
 				<label>
 					<img className="text-primary" src={imgSrc} alt={truncate(movie.title)} />
           	</label>
@@ -105,8 +105,8 @@ Using ReactJS made the whole process of manipulating the HTML aspects a lot easi
 We used this method of storing and displaying data across the whole app, fetching within a useEffect and storing in useState, then mapping the array, displaying it to the screen.
 
 ## URL Section 
-* [Website](harrytodd.github.io/project-2/)
-* [Github Repo](https://github.com/harrytodd/project-2)
+* [Website](harrytodd.github.io/TVMovieBoard/)
+* [Github Repo](https://github.com/harrytodd/TVMovieBoard)
 
 ## Visuals
 ###### Landing Page
