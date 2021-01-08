@@ -95,9 +95,9 @@ We used useState to keep the data in state and useEffect so that we do not creat
 				<label>
 					<img className="text-primary" src={imgSrc} alt={truncate(movie.title)} />
           	</label>
-         	</Link>
+             </Link>
      	</div>
-  	})}
+    })}
 </section>
 ```
 Using ReactJS made the whole process of manipulating the HTML aspects a lot easier than it was in my first project where we had to use 'Vanilla' HTML, CSS and JavaScript.
