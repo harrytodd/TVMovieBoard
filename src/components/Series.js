@@ -42,7 +42,7 @@ const Series = (props) => {
           <p>{series.overview}</p>
           <div className="seasons">
             {series.seasons.map((season, index) => {
-              return <Link to={`/TVMovieBoard//tv/${id}/${season.season_number}`} className="season" key={index}>{season.name}</Link>
+              return <Link to={`/TVMovieBoard/tv/${id}/${season.season_number}`} className="season" key={index}>{season.name}</Link>
             })}
           </div>
           <div className="links">
