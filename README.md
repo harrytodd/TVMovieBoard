@@ -94,9 +94,9 @@ We used useState to keep the data in state and useEffect so that we do not creat
 			<Link to={`/movies/${movie.id}`}>
 				<label>
 					<img className="text-primary" src={imgSrc} alt={truncate(movie.title)} />
-          	</label>
-         	</Link>
-     	</div>
+          			</label>
+         		</Link>
+     		</div>
   	})}
 </section>
 ```
