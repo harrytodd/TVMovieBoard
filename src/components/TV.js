@@ -86,7 +86,7 @@ const TV = () => {
           {series.map((show, index) => {
             const imgSrc = `https://image.tmdb.org/t/p/w500/${show.poster_path}`
             return <div key={index} className="card">
-              <Link to={`/project-2/tv/${show.id}`}>
+              <Link to={`/tv/${show.id}`}>
                 <label>
                   <img className="text-primary" src={imgSrc} alt={truncate(show.original_name)} />
                   <h2 className="show-title">{truncate(show.original_name)}</h2>

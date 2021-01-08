@@ -92,7 +92,7 @@ const Movies = () => {
           {movies.map((movie, index) => {
             const imgSrc = `https://image.tmdb.org/t/p/w500/${movie.poster_path}`
             return <div key={index} className="card">
-              <Link to={`/project-2/movies/${movie.id}`}>
+              <Link to={`/movies/${movie.id}`}>
                 <label>
                   <img className="text-primary" src={imgSrc} alt={truncate(movie.title)} />
                 </label>
