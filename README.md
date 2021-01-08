@@ -88,14 +88,14 @@ We used useState to keep the data in state and useEffect so that we do not creat
 
 ```javascript
 <section className="cards">
-	{movies.map((movie, index) => {
-		const imgSrc = `https://image.tmdb.org/t/p/w500/${movie.poster_path}`
-		return <div key={index} className="card">
-			<Link to={`/TVMovieBoard/movies/${movie.id}`}>
-				<label>
-					<img className="text-primary" src={imgSrc} alt={truncate(movie.title)} />
+    {movies.map((movie, index) => {
+	const imgSrc = `https://image.tmdb.org/t/p/w500/${movie.poster_path}`
+	return <div key={index} className="card">
+	    <Link to={`/TVMovieBoard/movies/${movie.id}`}>
+		<label>
+		    <img className="text-primary" src={imgSrc} alt={truncate(movie.title)} />
           	</label>
-             </Link>
+            </Link>
      	</div>
     })}
 </section>
