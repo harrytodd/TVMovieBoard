@@ -122,4 +122,4 @@ styling.
 
 ## Contibutors 
 #### Harry Todd 
-#### Mitchell Thomas		
+#### [Mitchell Thomas](https://github.com/mitty009/)		
