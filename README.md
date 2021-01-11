@@ -71,7 +71,7 @@ Using ReactJS meant that we could easily seperate pages from each other. These a
 
 One thing we could have done is differentiate the names a bit more from each other - Movies and Movie could get confused, as could Series and Season.
 
-Here is how we got all of the movie data from the API:
+Here is how we got all of the movie data from the [TMDb API](https://developers.themoviedb.org/3):
 
 ```javascript
 const [movies, updateMovies] = useState([])
